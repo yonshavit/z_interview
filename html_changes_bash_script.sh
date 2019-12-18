@@ -11,4 +11,5 @@ cd z_interview
 
 sudo cp -i ./webpage_watcher.py /bin
 crontab ./crontab_file
-python2.7 ./webpage_watcher.py
+cd /bin
+sudo python2.7 ./webpage_watcher.py
