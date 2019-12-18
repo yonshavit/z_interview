@@ -5,8 +5,8 @@ import io
 import os.path
 import boto3
 WEB_ADDRESS = "https://support.apple.com/en-us/HT201222"
-LOCAL_PATH = "local_copy.html"
-TEMP_PATH = "temp_copy.html"
+LOCAL_PATH = "$HOME/z_interview/local_copy.html"
+TEMP_PATH = "$HOME/z_interview/temp_copy.html"
 BUCKET = "zimperium-interview-bucket"
 RECENT_KEY = "LATEST_FILE"
 ACCESS_KEY = "AKIAUFARHWWAV6XYUXK6"
