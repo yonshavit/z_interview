@@ -4,9 +4,10 @@ import time
 import io
 import os.path
 import boto3
+from os.path import expanduser
 WEB_ADDRESS = "https://support.apple.com/en-us/HT201222"
-LOCAL_PATH = "./local_copy.html"
-TEMP_PATH = "./temp_copy.html"
+LOCAL_PATH = expanduser("~") + "/local_copy.html"
+TEMP_PATH = expanduser("~") +  "/temp_copy.html"
 BUCKET = "zimperium-interview-bucket"
 RECENT_KEY = "LATEST_FILE"
 ACCESS_KEY = "AKIAUFARHWWAV6XYUXK6"
