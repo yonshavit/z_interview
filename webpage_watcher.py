@@ -4,7 +4,7 @@ import time
 import io
 import os.path
 import boto3
-WEB_ADDRESS = "https://support.apple.com/en-us/HT201222"
+WEB_ADDRESS = "https://wobbletest.webs.com/"
 LOCAL_PATH = "./local_copy.html"
 TEMP_PATH = "./temp_copy.html"
 BUCKET = "zimperium-interview-bucket"
