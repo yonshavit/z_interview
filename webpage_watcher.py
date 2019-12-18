@@ -66,7 +66,6 @@ def running_loop():
             upload_file(key_string, LOCAL_PATH)
             upload_file(RECENT_KEY, LOCAL_PATH)
 
-        os.remove(TEMP_PATH)
 
 
 def main():
