@@ -9,6 +9,6 @@ git clone https://github.com/yonshavit/z_interview.git
 
 cd z_interview
 
-sudo cp -i ./webpage_watcher.py
+sudo cp -i ./webpage_watcher.py /bin
 crontab ./crontab_file
-python2.7 webpage_watcher
+python2.7 ./webpage_watcher.py
