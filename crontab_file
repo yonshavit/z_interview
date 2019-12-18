@@ -1,1 +1,1 @@
-@reboot sudo python2.7 /bin/webpage_watcher.py &
+@reboot python2.7 /bin/webpage_watcher.py &
